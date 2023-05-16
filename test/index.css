@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: gray;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+
+  
+  select {
+    height: 30px;
+  }
+  
+  ul {
+    list-style-type: circle;
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+ .button{
+    align-content: center;
+    margin-left: 45%;
+ }
+  
+  
+  .sub {
+    margin-bottom: 5px;
+  }
+  
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
