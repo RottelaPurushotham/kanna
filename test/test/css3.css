@@ -1,0 +1,90 @@
+/* body{
+   
+    background-image: url(https://www.vidyavision.com/CollegeUploads/Photos/2017-25-5-12-23-45_gates%20inst.jpg);
+    background-repeat: no-repeat ;
+    width:100%;
+    height: 720px;
+    background-size:100% 100%;
+    
+} */
+header{
+    position: fixed;
+    top:0%;
+    width: 1750px;
+    background-color: #fff;
+    
+    
+  }
+.custom-logo {
+    max-height: 100px;
+    width: 90%;
+   margin-left: 5%;   
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100%;
+    height: 850px;
+    background-size:100% 100%;
+    background-image: url(https://img.collegedekhocdn.com/media/img/institute/crawled_images/Gates_Institute_of_Technology6.jpg);
+    background-repeat: no-repeat ;
+    
+  }
+  /*  */
+
+  
+  ul.navbar {
+    display: flex;
+    justify-content: center; 
+
+    list-style-type: none;
+    padding: 0;
+    margin-right: 70%;
+    flex-direction: column;
+    
+  }
+  
+  ul.navbar li {
+    margin: 0 10px;
+  }
+  
+  ul.navbar li a {
+    display: inline-block;
+    padding: 1px 1px;
+    text-decoration: none;
+    color: #9a3f3f;
+    background-color: #f8f1f1c7;
+    border: 1.5px solid #0d0c0c;
+    transition: background-color 0.3s ease;
+    width: 250px; 
+    height: 60px; 
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    font-size: x-large;
+    align-items: flex-end;
+  }
+  
+  ul.navbar li a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: height 0.3s ease;
+    z-index: -1;
+  }
+  
+  ul.navbar li a:hover:before {
+    height: 100%;
+  }
+  
+  ul.navbar li a:hover {
+    background-color: #000;
+    color: #faeded;
+  }
+  

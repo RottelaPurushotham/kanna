@@ -1,0 +1,193 @@
+body{
+  background-color: rgb(243, 242, 240);
+  padding: 20px;
+}
+.container {
+    text-align: center;
+  }
+ 
+  header{
+    position: fixed;
+    top:0%;
+    width: 100%;
+    background-color: rgb(241, 239, 236);
+  }
+  .custom-logo {
+    max-height: 100px;
+    width: 80%;
+   margin-left: 10%;   
+}
+  
+  h1 {
+    color: #1e1616;
+    font-size: 28px;
+    margin-top: 25px;
+    padding-top: 105px;
+
+  }
+  #GFG{
+    text-decoration: none;
+  }
+  .password{
+    padding-bottom: 10px;
+  }
+  .staff{
+    margin-top: 1%;
+  }
+  h2 {
+    color: #1e1616;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-top: 10px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: scrollText 20s linear infinite; 
+    animation-play-state: 1s;
+    position: initial;
+
+
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+  
+  
+  form {
+    margin-top: 20p;
+     
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ea8282;
+    font-size: 23px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #555;
+  }
+  button[type="forget"] {
+    margin-bottom: 0.55%;
+    margin-left: 0%;
+    width: 67px;
+    height: 25px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  button[type="login"],
+  button[type="sign up"]{
+    width: 100px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button[type="login"]:hover,
+  button[type="sign up"]:hover,
+  button[type="forget"]:hover {
+    background-color: #c04444;
+    transform: scale(1.1);
+  }
+  
+  .p {
+    margin-top: 5px;
+    max-width: 410px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 45px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+  }
+  header {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    color: #333;
+    transition: float 0.3s ease;
+  }
+  
+  .navbar a.active,
+  .navbar a:hover {
+    background-color: #333;
+    color: #fff;
+    float: left;
+  }
+  
+  
+  
+  .navbar a:hover {
+    background-color: #c4eef4;
+    color: rgb(25, 21, 21);
+    float: left;
+  }
+  @media only screen and (max-width: 200px){
+    .navbar{
+      float: left;
+    }
+  }
+
+  
+  .l {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
